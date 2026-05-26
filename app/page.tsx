@@ -47,7 +47,7 @@ export default function Home() {
 
       <section id="roadmap" className="max-w-5xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-black text-gray-900 mb-2">Project Roadmap</h2>
-        <p className="text-gray-500 mb-10">What we're building, week by week.</p>
+        <p className="text-gray-500 mb-10">What we are building, week by week.</p>
         <div className="space-y-4">
           {roadmap.map((item) => (
             <div key={item.week} className={`flex items-start gap-5 p-5 rounded-2xl border ${item.status === "done" ? "bg-rose-50 border-rose-200" : "bg-white border-gray-100"}`}>
